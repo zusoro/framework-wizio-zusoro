@@ -10,7 +10,7 @@ extern void loop();
 
 int main()
 {
-    printf("\nTeensy Linux Simulator 2020 WizIO\n");
+    printf("\nTeensy Linux Simulator 2020 WizIO for Zusoro\n");
     printDateTime();
     printf("\n");
     setup();

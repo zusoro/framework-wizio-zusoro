@@ -21,6 +21,8 @@
 
 #include <Arduino.h>
 #include <variant.h>
+#include <inttypes.h>
+
 
 #ifndef WIN_EMU
 
@@ -46,6 +48,14 @@ void pinMode(uint8_t pin, uint8_t mode)
 {
   led_mode(pin, mode);
 }
+
+void analogWriteFrequency(uint8_t pin, float frequency)
+{
+  printf("[PWM] SET FREQ %d on PIN %d\n", (int)frequency, (uint8_t)pin);
+
+}
+
+void analogWriteResolution(int res) { }
 
 void digitalWrite(uint8_t pin, uint8_t val)
 {

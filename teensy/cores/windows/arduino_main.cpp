@@ -28,7 +28,7 @@ extern void loop();
 
 int main()
 {
-    printf("\nArduino Windows Simulator 2019 WizIO\n");
+    printf("\nTeensy Windows Simulator 2020 WizIO for Zusoro\n");
     printDateTime();
     printf("\n");
     setup();
