@@ -1,7 +1,7 @@
 {
-    "name": "framework-wizio",
-    "description": "WizIO Frameworks for PlatformIO",
-    "url": "https://github.com/Wiz-IO/framework-wizio",
+    "name": "framework-wizio-zusoro",
+    "description": "WizIO-zusoro Frameworks  for PlatformIO",
+    "url": "https://github.com/zusoro/framework-wizio-zusoro",
     "system": "*",
     "version": "1.0.0"
 }
