@@ -32,7 +32,7 @@ class EthernetClient : public Client
 private:
 	int _sock;
 	bool connect_true;
-
+	uint8_t _pCloseServer;
 public:
 	EthernetClient();
 	EthernetClient(uint8_t sock);
